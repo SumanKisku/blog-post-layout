@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'source_serif_proregular';
+    src: url('../sourceserifpro-regular-webfont.eot');
+    src: url('../sourceserifpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../sourceserifpro-regular-webfont.woff2') format('woff2'),
+         url('../sourceserifpro-regular-webfont.woff') format('woff'),
+         url('../sourceserifpro-regular-webfont.ttf') format('truetype'),
+         url('../sourceserifpro-regular-webfont.svg#source_serif_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: "Source Serif Pro";
+    font-size: 18px;
+}
+::selection {
+    color: #fff;
+    background: tomato;
+}
+h1 {
+    margin-left: 15px;
+    color: #383838;
+}
+
+p {
+    padding: 0 15px;
+    font-size: 1em;
+    line-height: 1.55;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #383838;
+}
+
+a:hover {
+    color: tomato;
+}
+
+p a {
+    color: tomato;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    min-height: 720px;
+    border-radius: 10px;
+    box-shadow: 0 0 45px 10px #ededed;
+}
+
+.ribbon-container {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    overflow: hidden;
+    width: 170px;
+    height: 118px;
+}
+
+.ribbon {
+    text-align: center;
+    line-height: 35px;
+    background-color: #383838;
+    color: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: 30px;
+    right: -40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #383838;
+}
